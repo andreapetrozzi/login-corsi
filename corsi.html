@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corsi</title>
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- CDN Google jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header id="header">
+        <nav>
+            <div>
+                <ul class="nav">
+                    <li><a href="login.html" id="logout">LogOut</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- MAIN -->
+    <main>
+        <div class="container-fluid">
+
+            <div class="row my-5">
+                <div class="col">
+                    <h2 class="fw-bold text-center display-5" id="corsiTitle">Elenco dei corsi</h2>
+                </div>
+            </div>
+
+            <div class="row justify-content-evenly">
+                <!-- Corso 1 -->
+                <div class="col-md-4">
+                    <div class="section">
+
+                        <div class="card-body text-white">
+                            <h5 class="card-title text-center fw-bold" id="corso1"></h5>
+                            <p id="durata1"></p>
+                            <p class="card-text" id="descrizione1"></p>
+                            <a href="#" class="btn btn-danger">Iscriviti</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Corso 2 -->
+                <div class="col-md-4">
+                    <div class="section">
+
+                        <div class="card-body text-white">
+                            <h5 class="card-title text-center fw-bold" id="corso2"></h5>
+                            <p id="durata2"></p>
+                            <p class="card-text" id="descrizione2"></p>
+                            <a href="#" class="btn btn-danger">Iscriviti</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Corso 3 -->
+                <div class="col-md-4">
+                    <div class="section">
+
+                        <div class="card-body text-white">
+                            <h5 class="card-title text-center fw-bold" id="corso3"></h5>
+                            <p id="durata3"></p>
+                            <p class="card-text" id="descrizione3"></p>
+                            <a href="#" class="btn btn-danger">Iscriviti</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+
+    </main>
+
+    <!-- SECTION -->
+    <section>
+
+        <h1 id="utente" class="text-center text-danger"></h1>
+
+
+        <div class="row justify-content-center mt-5">
+
+            <div class="section">
+
+                <form>
+                    <h4 class="text-center text-white">Personalizzalo</h4>
+
+                    <div class="input-group mb-3">
+
+                        <span class="input-group-text">Nome corso</span>
+                        <input type="text" class="form-control" id="nomeCorso">
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Durata</span>
+                        <input type="text" class="form-control" aria-describedby="durataCorso" id="durataCorso">
+                    </div>
+
+                    <p class="text-white m-3" id="error"></p>
+
+
+                    <!-- Argomenti -->
+                    <div class="row mt-3">
+                        <p class="text-center text-white">Scegli gli argomenti</p>
+
+                        <div class="col-md-4">
+                            <select class="form-select combo" id="materia1">
+                                <option selected></option>
+                            </select>
+                        </div>
+
+                        <div class="col-md-4">
+                            <select class="form-select combo" id="materia2">
+                                <option selected></option>
+                            </select>
+                        </div>
+
+                        <div class="col-md-4">
+                            <select class="form-select combo" id="materia3">
+                                <option selected></option>
+                            </select>
+                        </div>
+
+                        <p class="text-danger m-3" id="error"></p>
+                    </div>
+
+                    <!-- Button Crea Corso -->
+                    <div class="row justify-content-center m-3">
+                        <button class="btn btn-danger m-auto rounded-3" type="button" id="crea">Crea corso</button>
+                    </div>
+                </form>
+
+                <!-- Scitta finale -->
+                <div class="row">
+                    <div class="col">
+                        <div id="corsoCreato" class="text-center fs-4 mt-5 fw-bold text-white"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <!-- Script JS -->
+    <script src="js/corsi.js"></script>
+
+</body>
+</html>
+
+
+<!-- 
+
+    2. ELENCO CORSI
+    Messaggio di benvenuto all'utente loggato (comparirà la email inserita come user). (localStorage getItem)
+
+    Mostrare TRE esempi di corso da creare utilizzando una classe 
+    (es. creare la classe corretta per illustrare il nostro corso) 
+    con il rispettivo programma didattico (5 punti al massimo).
+        
+-->
+
+
