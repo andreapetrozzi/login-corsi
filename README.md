@@ -1,14 +1,12 @@
 # login-corsi
 
 DESCRIZIONE PROGETTO 
-
 Pagina con Login di accesso e barra di caricamento. 
-Fatto l'accesso nella navbar compaiono l'username inserito, la pagina con i corsi offerti e la pagina per creare un nuovo corso con riepilogo a fondo pagina una volta che il corso è stato creato.
 
-Struttura 
+Struttura:
 1) Pagina di login
 2) Pagina con un elenco di corsi
-3) Pagina con un form per creare al volo un corso
+3) Pagina con un form per creare un corso
 
 Funzionalità 
 1) LOGIN: Form di login con user e password;  
