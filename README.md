@@ -29,5 +29,14 @@ Al superamento dei controlli, dopo il click al di sotto del form compare il cors
 PULSANTE LOGOUT: reindirizza alla pagina di login cancellando la user memorizzata (localStorage clear)
 
 
-![Cattura-](https://user-images.githubusercontent.com/98649610/162699689-abb734aa-61fc-45ab-b805-d6ad1ea662ab.JPG)
+Login page
+![pic1](https://user-images.githubusercontent.com/98649610/162701261-5869e522-43db-4167-8a5d-29cd32813eeb.JPG)
+
+Elenco corsi
+![pic2](https://user-images.githubusercontent.com/98649610/162701277-c523ed10-8d49-48f4-aeaa-3a872f2e86d8.JPG)
+
+Personalizza corsi
+![pic3](https://user-images.githubusercontent.com/98649610/162701326-29e9db06-7e2d-49b4-87c6-8142f7a607be.JPG)
+
+
 
